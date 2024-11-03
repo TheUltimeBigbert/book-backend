@@ -19,12 +19,9 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
-<<<<<<< HEAD
 
         $this->call([
             BookSeeder::class, // Ensure this matches the class name
         ]);
-=======
->>>>>>> a47a583dd99b10b997c047c9d9ce5ce6e17fecff
     }
 }
